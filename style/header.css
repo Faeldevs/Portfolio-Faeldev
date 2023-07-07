@@ -1,0 +1,45 @@
+header{
+    width: 100%;
+}
+
+
+nav ul{
+    height: 7vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+nav ul li{
+    list-style: none;
+    justify-content: space-around;
+}
+
+nav ul li a{
+   
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: var(--cor-secundario);
+}
+
+nav ul li a:hover{
+    color: rgb(0, 47, 255);
+}
+
+.principal__logo{
+    text-transform: uppercase;
+    color: var(--cor-principal);
+    font-weight: 700;
+}
+
+.principal__span{
+    color: var(--cor-secundario);
+    font-weight: 500;
+}
+
+@media screen and (max-width: 800px){
+    nav ul li{
+        display: none;
+    }
+}

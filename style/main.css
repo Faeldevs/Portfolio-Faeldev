@@ -1,0 +1,117 @@
+main{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    height: 100vh;
+    background-color: #030b48;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.802), rgba(0, 0, 0, 0.842)), url(../img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+    gap: 3rem;
+
+}
+
+.curriculo{
+    display: flex;
+    align-items: center;
+}
+
+.curriculo h3{
+    font-weight: 200;
+    color: var(--cor-texto);
+   
+}
+
+.bx{
+    color:var(--cor-principal);
+    font-size: 3rem;
+}
+
+.container h2{
+    font-weight: 300;
+    color: var( --cor-texto);
+    font-size: 4rem;
+}
+
+.input{
+    color: var(--cor-principal);
+}
+
+.banner{
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/image.png);
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+
+
+
+@keyframes girar {
+    0% {
+      transform: rotate(0deg);
+      border:solid 1px;
+      background-color: var(--cor-principal);
+    }
+    25% {
+      transform: rotate(0deg);
+      border:solid 1px;
+      background-color: rgb(255, 255, 255);
+    }
+    50% {
+      transform: rotate(0deg);
+      border:solid 1px;
+      background-color: rgb(255, 255, 255);
+    }
+    75% {
+      transform: rotate(0deg);
+      border:solid 1px;
+      background-color: var(--cor-principal);
+    }
+    100% {
+      transform: rotate(0deg);
+      border:solid 1px;
+      background-color: var(--cor-principal);
+    }
+  }
+
+  .banner {
+    animation: girar 7s linear infinite;
+  }
+
+
+@media screen and (max-width: 800px){
+    .content h2{
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
+
+    .input{
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
+
+    .banner{
+        width: 250px;
+        height: 250px;
+    }
+
+    .curriculo h3{
+        font-style: italic;
+    }
+
+}

@@ -1,0 +1,74 @@
+.contato{
+    background: #0b0b13;
+    width: 100%;
+    display: block;
+    padding: 150px 0;
+    text-align: center;
+    margin: 100px auto;
+}
+
+.contato__titulo{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 2em 0;
+}
+
+.contato__container h3{
+    color: rgb(227, 227, 227);
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.contato__container h4{
+    color: var(--cor-principal);
+    font-size: 4rem;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.contato__container p{
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.contato__container span{
+    display: block;
+    padding: 1em 0;
+}
+
+.sobre__link--botao{
+    padding: 0 2rem;
+    font-size: 1.2rem;
+}
+
+.bxl-whatsapp{
+    color: rgb(78, 255, 47);
+}
+
+.bxl-instagram-alt{
+    color: #dd2a7b;
+}
+
+.bxl-github{
+    color:  #494343;
+}
+
+.bx-contato:hover{
+    color: var(--cor-principal);
+}
+
+
+.sobre__link--texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--cor-claro);
+    font-size: 1.3rem;
+}
+
+.sobre__link--span{
+    color: var(--cor-texto);
+}

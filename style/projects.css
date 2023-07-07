@@ -1,0 +1,77 @@
+.projetos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    justify-content: space-between; /* Adicionado */
+}
+
+  
+  .projetos__content-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .projetos__content-item img {
+    max-width: 80%;
+    border-radius: 8px;
+    display: block;
+    transition: transform 0.5s;
+    filter: brightness(50%) saturate(00%);
+  }
+
+  .projetos__content-item img:hover{
+    filter: brightness(90%) saturate(100%);
+  }
+  
+  .projetos__content-texto {
+    margin-top: 10px;
+    
+  }
+  
+  /* Estilos opcionais para melhorar a aparência dos cards */
+  .projetos__content-texto h5 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--cor-texto);
+    margin-bottom: 5px;
+  }
+  
+  .projetos__content-texto p {
+    font-size: 14px;
+    font-weight: 200;
+    color: var(--cor-secundario);
+  }
+  
+  .projetos__content-texto a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  .bx-link{
+    color: var(--cor-claro);
+  }
+
+  .bx-link:hover{
+    color: var(--cor-titulo);
+  }
+
+  .titulo__projeto{
+    text-align: center;
+    color: var(--cor-texto);
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 6px;
+    padding: 3rem;
+  }
+
+  @media screen and (max-width: 800px){
+
+    .projetos{
+        display: flex;
+        flex-direction: column;
+    }
+ }
+
+
