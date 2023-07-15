@@ -72,3 +72,12 @@
 .sobre__link--span{
     color: var(--cor-texto);
 }
+
+@media screen and (max-width:700px){
+    .contato__container{
+        display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    justify-content: space-between; /* Adicionado */
+    }
+}
